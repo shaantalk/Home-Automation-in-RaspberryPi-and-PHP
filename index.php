@@ -44,7 +44,7 @@
 <input type="submit" class="button" value="ON 5" name="on5">
 <input type="submit" class="button" value="OFF 5" name="off5">
 </form>
-	<font color="white">Made by Santanu and Sohom</font>
+	<font color="white">Made by Santanu</font>
 <?php
          $setmode22 = shell_exec("/usr/local/bin/gpio -g mode 22 out");
 	 $setmode27 = shell_exec("/usr/local/bin/gpio -g mode 27 out");
